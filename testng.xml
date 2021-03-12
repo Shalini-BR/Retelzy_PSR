@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+    <classes> 
+    <class name="com.psr.TestCases.eventModelCreation"/>
+      <!-- <class name="com.psr.TestCases.autoResize"/>
+      <class name="com.psr.TestCases.test1"/>
+      <class name="com.psr.Utilities.JsonReader"/>
+      <class name="com.psr.TestCases.RoleProfileCreation"/>
+      <class name="com.psr.TestCases.DeleteRole"/>
+      <class name="com.psr.TestCases.ReportsTest"/>
+      <class name="com.psr.TestCases.PsrGridCopyPaste"/>
+      <class name="com.psr.TestCases.ExportExcelForAllColumns"/>
+      <class name="com.psr.TestCases.ShowAndHide"/>
+      <class name="com.psr.TestCases.DeleteUsers"/>
+      <class name="com.psr.TestCases.EventCode"/>
+      <class name="com.psr.TestCases.UserProfileCreation"/>
+      <class name="com.psr.TestCases.DeleteEventModel"/>
+      <class name="com.psr.TestCases.eventModelCreation"/>
+      <class name="com.psr.TestCases.DeleteEventCode"/>
+      <class name="com.psr.TestCases.ShowandHid"/>
+      <class name="com.psr.TestCases.ImportExcelForAllColumns"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

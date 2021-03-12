@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+
+<test thread-count="5" name="Test"> 
+<classes>
+<class name="com.psr.TestCases.ExportExcelForAllColumns"/>
+</classes>
+</test>
+
+<test name="Test1">
+<classes>
+<class name="com.psr.TestCases.ImportExcelForAllColumns"/>
+</classes>
+</test>
+
+<test name="Test2">
+<classes>
+<class name="com.psr.TestCases.ShowandHid"/>
+</classes>
+</test>
+
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

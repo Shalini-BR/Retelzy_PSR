@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [COSAC]" parallel="tests">
+  <test thread-count="5" name="EventCode(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.cosac.TestCases.EventCode">
+        <methods>
+          <include name="location"/>
+          <include name="launchChrome"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.cosac.TestCases.EventCode -->
+    </classes>
+  </test> <!-- EventCode(failed) -->
+</suite> <!-- Failed suite [COSAC] -->

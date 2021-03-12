@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PSR]" parallel="tests">
+  <test thread-count="5" name="PSRProject Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.psr.TestCases.DeleteEventCode">
+        <methods>
+          <include name="close"/>
+          <include name="DeleteECode"/>
+          <include name="launchBrowser"/>
+          <include name="setExtent"/>
+        </methods>
+      </class> <!-- com.psr.TestCases.DeleteEventCode -->
+    </classes>
+  </test> <!-- PSRProject Chrome Test(failed) -->
+</suite> <!-- Failed suite [PSR] -->
